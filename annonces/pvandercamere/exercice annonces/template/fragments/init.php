@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 session_start();
 
 global $bdd ;
-$bdd = new PDO("mysql:host=localhost;dbname=projets_annonces_pvandercamere;charset=UTF8", "pvandercamere","B4Mgr5r?Q");
+$bdd = new PDO("mysql:host=localhost;dbname=projets_annonces_pvandercamere;charset=UTF8" //Insérez codes mysql ici);
 
 include_once "data/model.php";
 include_once "data/annonce.php";
